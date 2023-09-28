@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F21D17632AC8C14600E7D7D3 /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D17622AC8C14600E7D7D3 /* FontExtensions.swift */; };
+		F2F110142AC6EEFA00C77F8D /* SignInPasswordForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F212AC62A750079D910 /* SignInPasswordForm.swift */; };
+		F2F110152AC6EEFA00C77F8D /* SignInWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F2B2AC640C60079D910 /* SignInWith.swift */; };
+		F2F110162AC6EEFA00C77F8D /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F1F2AC624830079D910 /* Title.swift */; };
+		F2F110172AC6EEFA00C77F8D /* LATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F232AC62C350079D910 /* LATextField.swift */; };
+		F2F110182AC6EEFA00C77F8D /* LASecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F252AC630440079D910 /* LASecureField.swift */; };
+		F2F110192AC6EEFA00C77F8D /* TextSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F282AC637920079D910 /* TextSeparator.swift */; };
+		F2F1101A2AC6EEFA00C77F8D /* LAText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F372AC6542C0079D910 /* LAText.swift */; };
+		F2F1101B2AC6EEFA00C77F8D /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F1A2AC61D120079D910 /* RoundCorners.swift */; };
+		F2F1101C2AC6EEFA00C77F8D /* ColorConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F172AC6185D0079D910 /* ColorConverter.swift */; };
+		F2F1101D2AC6EEFA00C77F8D /* SignInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F022AC609FE0079D910 /* SignInPage.swift */; };
+		F2F1101E2AC6EEFA00C77F8D /* LoyaltyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F002AC609FE0079D910 /* LoyaltyAppApp.swift */; };
+		F2F110202AC6EEFA00C77F8D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F092AC60A000079D910 /* Persistence.swift */; };
+		F2F110222AC6EEFA00C77F8D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F1C2AC61F280079D910 /* Constants.swift */; };
+		F2FE9F052AC60A000079D910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FE9F042AC60A000079D910 /* Assets.xcassets */; };
+		F2FE9F082AC60A000079D910 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FE9F072AC60A000079D910 /* Preview Assets.xcassets */; };
+		F2FE9F0D2AC60A000079D910 /* LoyaltyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2FE9F0B2AC60A000079D910 /* LoyaltyApp.xcdatamodeld */; };
+		F2FE9F2F2AC64A610079D910 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2FE9F2E2AC64A600079D910 /* Montserrat-Regular.otf */; };
+		F2FE9F342AC650530079D910 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2FE9F332AC650530079D910 /* Montserrat-Bold.otf */; };
+		F2FE9F362AC6530C0079D910 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2FE9F352AC6530C0079D910 /* Montserrat-SemiBold.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F21D17622AC8C14600E7D7D3 /* FontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtensions.swift; sourceTree = "<group>"; };
+		F2FE9EFD2AC609FE0079D910 /* LoyaltyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoyaltyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FE9F002AC609FE0079D910 /* LoyaltyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyAppApp.swift; sourceTree = "<group>"; };
+		F2FE9F022AC609FE0079D910 /* SignInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPage.swift; sourceTree = "<group>"; };
+		F2FE9F042AC60A000079D910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2FE9F072AC60A000079D910 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2FE9F092AC60A000079D910 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F2FE9F0C2AC60A000079D910 /* LoyaltyApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoyaltyApp.xcdatamodel; sourceTree = "<group>"; };
+		F2FE9F172AC6185D0079D910 /* ColorConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConverter.swift; sourceTree = "<group>"; };
+		F2FE9F1A2AC61D120079D910 /* RoundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCorners.swift; sourceTree = "<group>"; };
+		F2FE9F1C2AC61F280079D910 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F2FE9F1F2AC624830079D910 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		F2FE9F212AC62A750079D910 /* SignInPasswordForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPasswordForm.swift; sourceTree = "<group>"; };
+		F2FE9F232AC62C350079D910 /* LATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LATextField.swift; sourceTree = "<group>"; };
+		F2FE9F252AC630440079D910 /* LASecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LASecureField.swift; sourceTree = "<group>"; };
+		F2FE9F282AC637920079D910 /* TextSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSeparator.swift; sourceTree = "<group>"; };
+		F2FE9F2B2AC640C60079D910 /* SignInWith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWith.swift; sourceTree = "<group>"; };
+		F2FE9F2E2AC64A600079D910 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.otf"; path = "../../../Downloads/montserrat%20full%20version/Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		F2FE9F332AC650530079D910 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.otf"; path = "../../../Downloads/montserrat%20full%20version/Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		F2FE9F352AC6530C0079D910 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.otf"; path = "../../../Downloads/montserrat%20full%20version/Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		F2FE9F372AC6542C0079D910 /* LAText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAText.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2FE9EFA2AC609FE0079D910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2FE9EF42AC609FE0079D910 = {
+			isa = PBXGroup;
+			children = (
+				F2FE9F352AC6530C0079D910 /* Montserrat-SemiBold.otf */,
+				F2FE9F332AC650530079D910 /* Montserrat-Bold.otf */,
+				F2FE9F2E2AC64A600079D910 /* Montserrat-Regular.otf */,
+				F2FE9EFF2AC609FE0079D910 /* LoyaltyApp */,
+				F2FE9EFE2AC609FE0079D910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2FE9EFE2AC609FE0079D910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE9EFD2AC609FE0079D910 /* LoyaltyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2FE9EFF2AC609FE0079D910 /* LoyaltyApp */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE9F302AC64CF00079D910 /* Extensions */,
+				F2FE9F1E2AC6244B0079D910 /* Components */,
+				F2FE9F192AC61CE10079D910 /* Shapes */,
+				F2FE9F162AC618410079D910 /* Helpers */,
+				F2FE9F132AC60A9A0079D910 /* Views */,
+				F2FE9F002AC609FE0079D910 /* LoyaltyAppApp.swift */,
+				F2FE9F042AC60A000079D910 /* Assets.xcassets */,
+				F2FE9F092AC60A000079D910 /* Persistence.swift */,
+				F2FE9F0B2AC60A000079D910 /* LoyaltyApp.xcdatamodeld */,
+				F2FE9F062AC60A000079D910 /* Preview Content */,
+				F2FE9F1C2AC61F280079D910 /* Constants.swift */,
+			);
+			path = LoyaltyApp;
+			sourceTree = "<group>";
+		};
+		F2FE9F062AC60A000079D910 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE9F072AC60A000079D910 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2FE9F132AC60A9A0079D910 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE9F022AC609FE0079D910 /* SignInPage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2FE9F162AC618410079D910 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE9F172AC6185D0079D910 /* ColorConverter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F2FE9F192AC61CE10079D910 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE9F1A2AC61D120079D910 /* RoundCorners.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		F2FE9F1E2AC6244B0079D910 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE9F2A2AC6408E0079D910 /* SignInPage */,
+				F2FE9F1F2AC624830079D910 /* Title.swift */,
+				F2FE9F232AC62C350079D910 /* LATextField.swift */,
+				F2FE9F252AC630440079D910 /* LASecureField.swift */,
+				F2FE9F282AC637920079D910 /* TextSeparator.swift */,
+				F2FE9F372AC6542C0079D910 /* LAText.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F2FE9F2A2AC6408E0079D910 /* SignInPage */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE9F212AC62A750079D910 /* SignInPasswordForm.swift */,
+				F2FE9F2B2AC640C60079D910 /* SignInWith.swift */,
+			);
+			path = SignInPage;
+			sourceTree = "<group>";
+		};
+		F2FE9F302AC64CF00079D910 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F21D17622AC8C14600E7D7D3 /* FontExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2FE9EFC2AC609FE0079D910 /* LoyaltyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FE9F102AC60A000079D910 /* Build configuration list for PBXNativeTarget "LoyaltyApp" */;
+			buildPhases = (
+				F2FE9EF92AC609FE0079D910 /* Sources */,
+				F2FE9EFA2AC609FE0079D910 /* Frameworks */,
+				F2FE9EFB2AC609FE0079D910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoyaltyApp;
+			productName = LoyaltyApp;
+			productReference = F2FE9EFD2AC609FE0079D910 /* LoyaltyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2FE9EF52AC609FE0079D910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F2FE9EFC2AC609FE0079D910 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F2FE9EF82AC609FE0079D910 /* Build configuration list for PBXProject "LoyaltyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2FE9EF42AC609FE0079D910;
+			productRefGroup = F2FE9EFE2AC609FE0079D910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2FE9EFC2AC609FE0079D910 /* LoyaltyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2FE9EFB2AC609FE0079D910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FE9F082AC60A000079D910 /* Preview Assets.xcassets in Resources */,
+				F2FE9F052AC60A000079D910 /* Assets.xcassets in Resources */,
+				F2FE9F2F2AC64A610079D910 /* Montserrat-Regular.otf in Resources */,
+				F2FE9F342AC650530079D910 /* Montserrat-Bold.otf in Resources */,
+				F2FE9F362AC6530C0079D910 /* Montserrat-SemiBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2FE9EF92AC609FE0079D910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F110142AC6EEFA00C77F8D /* SignInPasswordForm.swift in Sources */,
+				F2F110152AC6EEFA00C77F8D /* SignInWith.swift in Sources */,
+				F21D17632AC8C14600E7D7D3 /* FontExtensions.swift in Sources */,
+				F2F110162AC6EEFA00C77F8D /* Title.swift in Sources */,
+				F2F110172AC6EEFA00C77F8D /* LATextField.swift in Sources */,
+				F2F110182AC6EEFA00C77F8D /* LASecureField.swift in Sources */,
+				F2F110192AC6EEFA00C77F8D /* TextSeparator.swift in Sources */,
+				F2F1101A2AC6EEFA00C77F8D /* LAText.swift in Sources */,
+				F2F1101B2AC6EEFA00C77F8D /* RoundCorners.swift in Sources */,
+				F2F1101C2AC6EEFA00C77F8D /* ColorConverter.swift in Sources */,
+				F2F1101D2AC6EEFA00C77F8D /* SignInPage.swift in Sources */,
+				F2F1101E2AC6EEFA00C77F8D /* LoyaltyAppApp.swift in Sources */,
+				F2F110202AC6EEFA00C77F8D /* Persistence.swift in Sources */,
+				F2F110222AC6EEFA00C77F8D /* Constants.swift in Sources */,
+				F2FE9F0D2AC60A000079D910 /* LoyaltyApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F2FE9F0E2AC60A000079D910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2FE9F0F2AC60A000079D910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2FE9F112AC60A000079D910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoyaltyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 966LP4RZ7T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoTree.LoyaltyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2FE9F122AC60A000079D910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoyaltyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 966LP4RZ7T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LoTree.LoyaltyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2FE9EF82AC609FE0079D910 /* Build configuration list for PBXProject "LoyaltyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FE9F0E2AC60A000079D910 /* Debug */,
+				F2FE9F0F2AC60A000079D910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2FE9F102AC60A000079D910 /* Build configuration list for PBXNativeTarget "LoyaltyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FE9F112AC60A000079D910 /* Debug */,
+				F2FE9F122AC60A000079D910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2FE9F0B2AC60A000079D910 /* LoyaltyApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2FE9F0C2AC60A000079D910 /* LoyaltyApp.xcdatamodel */,
+			);
+			currentVersion = F2FE9F0C2AC60A000079D910 /* LoyaltyApp.xcdatamodel */;
+			path = LoyaltyApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2FE9EF52AC609FE0079D910 /* Project object */;
+}
